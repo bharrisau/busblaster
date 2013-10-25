@@ -1,7 +1,7 @@
 SRC=																					\
 	../rtl/system.v						
 
-.PHONY: clean system.svf
+.PHONY: clean
 
 system.svf: build/system.jed
 	impact -batch impactcmd.txt
@@ -30,7 +30,7 @@ build/system.prj: $(SRC)
 	  fi \
 	done
 
-load: build/system.bit
+load: system.svf
 	jtag -n load.batch
 
 clean:

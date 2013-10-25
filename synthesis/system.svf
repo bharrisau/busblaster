@@ -1,5 +1,5 @@
 // Created using Xilinx Cse Software [ISE - 14.4]
-// Date: Mon Oct 21 08:39:33 2013
+// Date: Fri Oct 25 19:03:56 2013
 
 TRST OFF;
 ENDIR IDLE;
@@ -83,11 +83,11 @@ SIR 8 TDI (ea) ;
 SDR 266 TDI (00003ffffffffffffffeffffffffffffffdff7ffffffffffffffffffffffffffffc0) SMASK (03ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff) ;
 ENDIR IDLE;
 RUNTEST 10000 TCK;
-SDR 266 TDI (0201f7fffffdffffffffffffffffffffffdff7fffffffffffffffffffffffffffce0) ;
+SDR 266 TDI (0201f7fffffdffffffffffffffffffffffdff7fffffffffffffffffffffffffffdf8) ;
 RUNTEST 10000 TCK;
-SDR 266 TDI (030296ffffffbffffffffffffffffffffedff3ffffffffffffffffffffffffffdcfc) ;
+SDR 266 TDI (030296ffffffbffffffffffffffffffffedff3ffffffffffffffffffffffffffdc7c) ;
 RUNTEST 10000 TCK;
-SDR 266 TDI (01003fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc0) ;
+SDR 266 TDI (01003ffffffff7ffffffffffffffffffffdff7ffffffffffffffffffffffffffffc0) ;
 RUNTEST 10000 TCK;
 SDR 266 TDI (0181f7fffffffffffffffffffffffffff6dff3fffffffffffffffffdfffffffffce0) ;
 RUNTEST 10000 TCK;
@@ -131,15 +131,15 @@ SDR 266 TDI (00e3e3ffffffffffffffffffffffffffffc0fffffffffffffffffffffffffffffcf
 RUNTEST 10000 TCK;
 SDR 266 TDI (00a03ffffffffffffffffffffffffffffffe7fffffffffffffffffffffffffffffc0) ;
 RUNTEST 10000 TCK;
-SDR 266 TDI (02a1fbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffce0) ;
+SDR 266 TDI (02a1fbfffffffffffffffffffffffffffffe1ffffffffffffffffffffffffffffce0) ;
 RUNTEST 10000 TCK;
 SDR 266 TDI (03a3e3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcfc) ;
 RUNTEST 10000 TCK;
 SDR 266 TDI (01a03fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffebc0) ;
 RUNTEST 10000 TCK;
-SDR 266 TDI (0121fbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdf8) ;
+SDR 266 TDI (0121fbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffce0) ;
 RUNTEST 10000 TCK;
-SDR 266 TDI (0323e1bfffffffffffffffffffffffffff7ff7fffffffffffffffffffffffffffc7c) ;
+SDR 266 TDI (0323e1bfffffffffffffffffffffffffff7ff7fffffffffffffffffffffffffffcfc) ;
 RUNTEST 10000 TCK;
 SDR 266 TDI (02203fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc0) ;
 RUNTEST 10000 TCK;
@@ -157,7 +157,7 @@ SDR 266 TDI (01b03fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc
 RUNTEST 10000 TCK;
 SDR 266 TDI (03b1fbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffce0) ;
 RUNTEST 10000 TCK;
-SDR 266 TDI (02b3e3fffffff7ffffffffffffffffffff7ff7fffffffffffffffffffffffffffcfc) ;
+SDR 266 TDI (02b3e3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcfc) ;
 RUNTEST 10000 TCK;
 SDR 266 TDI (00b03fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc0) ;
 RUNTEST 10000 TCK;

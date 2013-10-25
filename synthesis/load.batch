@@ -1,0 +1,4 @@
+cable ft2232 interface=1
+usleep 100000
+detect
+svf system.svf progress stop
